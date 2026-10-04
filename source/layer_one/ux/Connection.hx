@@ -1,5 +1,6 @@
 package layer_one.ux;
 
+import flixel.text.FlxText;
 import flixel.FlxState;
 
 /**
@@ -12,4 +13,11 @@ import flixel.FlxState;
 class Connection extends FlxState
 {
 	final TACOA = Macro.fileString('resources/release/terms_and_conditions_of_acceptance.txt');
+
+	var termsText:FlxText;
+
+	override function create()
+	{
+		super.create();
+	}
 }
