@@ -9,4 +9,7 @@ import flixel.FlxState;
  * - Terms and Conditions of Acceptance
  * - Confirmation Prompt
  */
-class Connection extends FlxState {}
+class Connection extends FlxState
+{
+	final TACOA = Macro.fileString('resources/release/terms_and_conditions_of_acceptance.txt');
+}
