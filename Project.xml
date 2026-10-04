@@ -25,7 +25,8 @@
 	<set name="BUILD_DIR" value="export/debug" if="debug" />
 
 	<source path="source" />
-	<!-- <assets path="resources" /> -->
+
+	<assets path="resources/release" rename="resources" />
 
 	<!-- _______________________________ Libraries ______________________________ -->
 
